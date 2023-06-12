@@ -3,6 +3,8 @@ Bypasser for Fluxus' key system
 
 we hate supporting free services
 
+## PATCHED ATM ⛔️ (working on a fix)
+
 ## Requirements
  - [node.js](https://nodejs.org/en)
 
