@@ -1,7 +1,7 @@
 # Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
-we hate supporting free services
+# ‼ This is the original repository & bypass, any other repo is simply copying off my bypass without credit. ‼
 
 ## Requirements
  - [node.js](https://nodejs.org/en)
