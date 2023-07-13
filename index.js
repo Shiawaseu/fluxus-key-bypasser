@@ -12,6 +12,7 @@ const args = process.argv;
 const wait = ms => new Promise(res => setTimeout(res, ms * 1000))
 
 async function bypass(hwid) {
+    const commoncookie = "Anti-Bypass=BypassersKHTTP_VERSION5069e4e61337c2fbea2368f9da1a07725f2a65bb1eab2d8de6dc9cf83e7a683e; .pipe=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJLMGc4SjNsRmY1TW43UWw4bVh5bytpNnVBeGh4aWFSYTU2bldDZEcxQnlNPSIsImUiOjE2ODkyNTAyODEsImlzc3VlZCI6MTY4OTI0NjY4MS44MzksInNhbHQiOiJzYWx0eSIsImNvbm5lY3RvciI6LTF9.tHnUGnosgCctAafGTgta4F1_1KQezhvdIATrj9YwQU0"
     const start_url = "https://flux.li/windows/start.php?HWID=" + hwid
     const commonheader = {
         'Referer': 'https://linkvertise.com/',
@@ -23,7 +24,8 @@ async function bypass(hwid) {
     })
     await wait(3)
     await req.request("https://flux.li/windows/start.php?7b20bcc1dfe26db966bb84f159da392f=false&HWID=" + hwid, {
-        'Referer': start_url
+        'Referer': start_url,
+        'Cookie': commoncookie
     }) // This was the patch?? It's legit static LMAO
     await wait(1)
     console.log("\nBypassed checkpoint 1")
