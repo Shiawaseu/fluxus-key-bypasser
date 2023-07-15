@@ -6,6 +6,9 @@ Bypasser for Fluxus' key system
 ## Requirements
  - [node.js](https://nodejs.org/en)
 
+## To get it to work
+ - Open the start url and complete the captcha, once it redirects you to the first linkvertise close the tab and run he program. Should work.
+
 ## How to run (WINDOWS)
 - Download or clone this repo
 - Run `install.bat` and and wait until it finishes installation
