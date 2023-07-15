@@ -8,6 +8,7 @@ Bypasser for Fluxus' key system
 
 ## To get it to work
  - Open the start url and complete the captcha, once it redirects you to the first linkvertise close the tab and run the program. Should work.
+  - Note: I am hopefully making a better workaround for this, expect an update soon.
 
 ## How to run (WINDOWS)
 - Download or clone this repo
@@ -22,4 +23,9 @@ Bypasser for Fluxus' key system
 - Ok thats it
 
 ## How to get HWID
-- Whenever u press "Get Key" in Fluxus it opens this tab --> flux.li/windows/start.php?HWID=XXXX, copy all of XX until the end of the url
+- Whenever you press "Get Key" in Fluxus it opens this tab --> flux.li/windows/start.php?HWID=XXXX, copy all of XX until the end of the url
+
+
+## TODO
+- Add HWID saver. Suggestion from issue [#2](https://github.com/MEMEZNUT999/fluxus-key-bypasser/issues/2)
+- Auto-Updater
