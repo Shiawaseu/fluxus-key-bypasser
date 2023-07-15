@@ -7,7 +7,7 @@ Bypasser for Fluxus' key system
  - [node.js](https://nodejs.org/en)
 
 ## To get it to work
- - Open the start url and complete the captcha, once it redirects you to the first linkvertise close the tab and run he program. Should work.
+ - Open the start url and complete the captcha, once it redirects you to the first linkvertise close the tab and run the program. Should work.
 
 ## How to run (WINDOWS)
 - Download or clone this repo
