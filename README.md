@@ -1,7 +1,7 @@
 # Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
-# ‼ This is the original repository & bypass, any other repo is simply copying off my bypass without credit. ‼
+# ‼ This is the original repository & bypass, I will try my best to maintain it ‼
 
 # Installation
  - Download or clone this repo
