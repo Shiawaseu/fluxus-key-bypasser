@@ -3,7 +3,7 @@ Bypasser for Fluxus' key system
 
 # ‼ This is the original repository & bypass, any other repo is simply copying off my bypass without credit. ‼
 
-# installation
+# Installation
  - Download or clone this repo
  - Navigate to whichever version you want to use, read their README.md files to start
 
