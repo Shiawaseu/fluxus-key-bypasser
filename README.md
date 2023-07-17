@@ -25,4 +25,5 @@ Bypasser for Fluxus' key system
 
 
 ## TODO
+- Support for more webdrivers (Edge, Firefox, Opera, etc.)
 - Auto-Updater
