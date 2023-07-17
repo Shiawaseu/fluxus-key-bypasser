@@ -1,3 +1,5 @@
+Current Status: `Working`
+
 # Fluxus Key Bypasser V1
  - NO LONGER MAINTAINED. USE `V2` INSTEAD!
 
