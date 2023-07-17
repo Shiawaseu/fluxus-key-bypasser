@@ -11,8 +11,8 @@ Current Status: `Working`
 
 ## How to run (others)
 - Download or clone this repo
-- Run `npm install` in console and and wait until it finishes installation
-- Run `node index.js HWIDHERE` in console
+- Run `pip install -r requirements.bypass` in console and and wait until it finishes installation
+- Run `python main.py` in console
 - Ok thats it
 
 ## How to get HWID
