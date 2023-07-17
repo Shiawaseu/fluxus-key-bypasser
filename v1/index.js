@@ -26,7 +26,7 @@ async function bypass(hwid) {
     await req.request("https://flux.li/windows/start.php?7b20bcc1dfe26db966bb84f159da392f=false&HWID=" + hwid, {
         'Referer': start_url,
         'Cookie': commoncookie
-    }) // This was the patch?? It's legit static LMAO
+    })
     await wait(1)
     console.log("\nBypassed checkpoint 1")
     await req.request("https://fluxteam.net/windows/checkpoint/check1.php", commonheader)
