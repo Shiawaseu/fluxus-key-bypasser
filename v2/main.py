@@ -11,6 +11,7 @@ from seleniumwire import webdriver
 from seleniumwire.utils import decode
 from bs4 import BeautifulSoup
 from colorama import Fore, Back, Style, init
+from fake_useragent import UserAgent
 
 # colorama for windows, will not affect other platforms
 init()
@@ -42,10 +43,10 @@ def gethwid():
         return hwid
     else:
         print(Fore.YELLOW + "[WARN] No HWID found in the file.")
-        user_hwid = input("[PROMPT] Enter your HWID: ")
-        writehwid(filename, user_hwid)
+        hwid = input("[PROMPT] Enter your HWID: ")
+        writehwid(filename, hwid)
         print(Fore.GREEN + "[LOG] HWID saved to the file. Running program now.")
-        return user_hwid
+        return hwid
 
 
 def main():
@@ -55,19 +56,22 @@ def main():
     print(Fore.WHITE + "[!] Program is starting, if this takes longer than 1 minute, restart.")
     print(Style.RESET_ALL)
     base_url = f"https://flux.li/windows/start.php?HWID={hwid}"
-
+    UA = UserAgent()
+    agent = UA.random
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
+    options.add_argument("--headless=new") # https://www.selenium.dev/blog/2023/headless-is-going-away/
+    options.add_argument(f"user-agent={agent}")
+    options.add_argument("window-size=1400,600")
     options.add_argument("log-level=3")
+    options.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(options=options)
 
     try:
         driver.get(base_url)
         time.sleep(5)
-
-        driver.header_overrides = {'Referer': 'https://linkvertise.com'}
-
+        driver.header_overrides = {'Referer': base_url}
         driver.get(f"{base_url}&7b20bcc1dfe26db966bb84f159da392f=false")
+        driver.header_overrides = {'Referer': 'https://linkvertise.com'}
         driver.get("https://fluxteam.net/windows/checkpoint/check1.php")
         time.sleep(3) 
         driver.get("https://fluxteam.net/windows/checkpoint/check2.php")
