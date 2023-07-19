@@ -1,6 +1,9 @@
 ## Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
+## Semi-Patched ⚠
+ - See [this](https://github.com/MEMEZNUT999/fluxus-key-bypasser/issues/5)
+ - 
 ## ‼ This is the original repository & bypass, I will try my best to maintain it ‼
 
 ## Requirements
