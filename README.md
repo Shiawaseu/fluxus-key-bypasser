@@ -1,7 +1,10 @@
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Shiawase6087)
+
 ## Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
 ## ‼ This is the original repository & bypass, I will try my best to maintain it ‼
+ - If you want to support me, you can consider starring this repo or donate 💫
 
 ## Requirements
  - [V2 | Python](https://www.python.org/)
