@@ -1,5 +1,3 @@
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Shiawase6087)
-
 ## Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
@@ -9,6 +7,7 @@ Bypasser for Fluxus' key system
 ## Requirements
  - [V2 | Python](https://www.python.org/)
  - [V1 | node.js](https://nodejs.org/en)
+ - [Executable](https://www.microsoft.com/en-US/software-download/windows10)
 
 ## Installation
  - Download or clone this repo
@@ -17,9 +16,9 @@ Bypasser for Fluxus' key system
 ## Change log
 ```
 [+] V2 Added
- - Now uses Python instead of JavaScript
- - Fully automatic
- - Uses webdriver instead of requests
+ - Uses python for these who don't have js
+ - Speeded up
+ - Takes around 5 seconds to bypass
  - Saves your HWID, no need to input each time.
 
 [!] Please note, V1 DOES STILL WORK.
@@ -27,10 +26,7 @@ Bypasser for Fluxus' key system
 
 ## Showcases
 # V2
-![image](https://github.com/MEMEZNUT999/fluxus-key-bypasser/assets/73775954/e0a893e2-5867-4758-9eb2-253de11bd518)
+![image](https://discord.com/channels/@me/1122304496744276008/1133042457152606208)
 # v1
-![image](https://github.com/MEMEZNUT999/fluxus-key-bypasser/assets/73775954/d4c2bf09-6d5a-420e-ba03-79d2fe7eadf6)
+![image](https://discord.com/channels/@me/1122304496744276008/1133042702552932393)
 
-## TODO
-- Support for more webdrivers (Edge, Firefox, Opera, etc.)
-- Auto-Updater
