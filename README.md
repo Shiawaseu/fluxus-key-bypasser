@@ -26,7 +26,7 @@ Bypasser for Fluxus' key system
 
 ## Showcases
 # V2
-![image](https://discord.com/channels/@me/1122304496744276008/1133042457152606208)
+![image](https://github.com/Simon1907/fluxus-key-bypasser/assets/78481748/09a90fba-e00d-4957-ab81-38a946af44ad)
 # v1
-![image](https://discord.com/channels/@me/1122304496744276008/1133042702552932393)
+![image](https://discord.com/channels/892029203816534077/892029203816534080/1133043267886399580)
 
