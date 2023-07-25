@@ -1,3 +1,6 @@
+# IMPORTANT UPDATE: 
+###You must visit the fluxus get-Key websit at least once a day to validate your IP-Adress for the Anti-Bot, and sometimes you have to do the captcha, but only once, after you did it, you can bypass any key for the whole day
+
 ## Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
