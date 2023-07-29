@@ -1,4 +1,4 @@
-Current Status: `Working`
+Current Status: `POTENTIALLY BROKEN USE V1`
 
 # Fluxus Key Bypasser V2
  - Uses Python instead of V1, now fully seamless and automatic!
