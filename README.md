@@ -3,6 +3,8 @@
 ## Fluxus Key Bypasser
 Bypasser for Fluxus' key system
 
+# ⚠ Use `V1`for now, V2 may be broken
+
 ## ‼ This is the original repository & bypass, I will try my best to maintain it ‼
  - If you want to support me, you can consider starring this repo or donate 💫
 
