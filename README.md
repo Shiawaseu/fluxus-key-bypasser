@@ -34,5 +34,5 @@ Bypasser for Fluxus' key system
 ![image](https://github.com/MEMEZNUT999/fluxus-key-bypasser/assets/73775954/d4c2bf09-6d5a-420e-ba03-79d2fe7eadf6)
 
 ## TODO
-- Support for more webdrivers (Edge, Firefox, Opera, etc.)
-- Auto-Updater
+- ~Support for more webdrivers (Edge, Firefox, Opera, etc.)~
+- ~Auto-Updater~
