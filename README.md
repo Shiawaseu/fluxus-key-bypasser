@@ -1,7 +1,7 @@
 # 🛑 DISCONTINUED 🛑 #
 
 ## Fluxus Key Bypasser
-Bypasser for Fluxus' key syste
+Bypasser for Fluxus' key system
 
 
 ## Requirements
