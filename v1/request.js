@@ -14,11 +14,5 @@ async function handler(...args) {
     return response
 }
 
-async function request(...args) {
-    var request = await handler(...args)
-    return request
-}
+module.exports = {handler}
 
-module.exports = {
-    request
-}
