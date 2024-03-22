@@ -1,12 +1,8 @@
 # 🛑 DISCONTINUED 🛑 #
 
 ## Fluxus Key Bypasser
-Bypasser for Fluxus' key system
+Bypasser for Fluxus' key syste
 
-# ⚠ No longer updated, if it works it works!
-
-## ‼ This is the original repository & bypass ‼
- - If you want to support me, you can consider starring this repo or donate 💫
 
 ## Requirements
  - [V2 | Python](https://www.python.org/)
@@ -16,16 +12,6 @@ Bypasser for Fluxus' key system
  - Download or clone this repo
  - Navigate to whichever version you want to use, read their README.md files to start
 
-## Change log
-```
-[+] V2 Added
- - Now uses Python instead of JavaScript
- - Fully automatic
- - Uses webdriver instead of requests
- - Saves your HWID, no need to input each time.
-
-[!] Please note, V1 DOES STILL WORK.
-```
 
 ## Showcases
 # V2
